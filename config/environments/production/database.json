@@ -6,7 +6,9 @@
       "settings": {
         "uri": "${process.env.URI || ''}"
       },
-      "options": {}
+      "options": {
+        "ssl": true
+      }
     }
   }
 }
