@@ -22,6 +22,11 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "products": {
+      "collection": "product",
+      "via": "collections",
+      "dominant": true
     }
   }
 }
